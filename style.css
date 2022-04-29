@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 40px;
+  padding: 20px 20px 40px 20px;
+  background-color: #1f223f;
+}
+.check {
+  font-family: 'Press Start 2P', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 40px;
+  margin-top: 290px;
+  margin-bottom: 300px;
+  color: #1a4586;
+}
+body {
+  background-color: #1d1d32;
+}
+.list {
+  list-style: none;
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 40px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.items {
+  position: relative;
+  width: 10%;
+  height: 100px !important;
+  cursor: pointer;
+}
+.btn {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #153c3a;
+  background-color: #D5F6F4;
+  /* background-color: #2e4846; */
+  cursor: pointer;
+}
+.bg {
+  background-color: #1C1F41 !important;
+}
+.imgs {
+  width: 95px;
+  height: 95px;
+  object-fit: cover;
+}
+
+.zero {
+  position: absolute;
+  top: -14%;
+  left: 45%;
+  font-size: 20px;
+  /* width: 0;
+  height: 6px; */
+}
+.zeroo{
+  width: 5px;
+  height: 0;
+  background-color: red;
+  z-index: 5;
+  animation-name: my;
+  animation-iteration-count: 1;
+  animation-duration: 0.1s;
+}
+
+
+@keyframes my {
+  0% {
+   height: 0;
+  }
+  100% {
+    height: 140px;
+  }
+} 
+
+
+
+.zerovertical{
+  position: absolute;
+  left: -15%;
+  top: 45%;
+  width: 0;
+  height: 6px;
+  background-color: red;
+  z-index: 5;
+  animation-name: myvertical;
+  animation-iteration-count: 1;
+  animation-duration: 0.1s;
+}
+
+
+ @keyframes myvertical {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 140px;
+  }
+} 
+
+
+
+.check {
+  position: absolute;
+  left: 35%;
+  top: 45%;
+}
+.df {
+  display: flex !important;
+}
+.border {
+  border: 2px solid red;
+}
+.info {
+  display: flex;
+  align-items: center;
+  /* margin-top: 40px; */
+  font-size: 24px;
+}
+.bx-time-five {
+  color: blue;
+  margin-right: 5px;
+}
+#timer {
+  margin-right: 20px;
+  color: #fff;
+}
+.bxs-star {
+  color: yellow;
+}
+#winshot {
+  color: #fff;
+}
+.active {
+  border: 5px solid blue;
+}
+
+.red{
+  /* background-color: red !important; */
+  /* box-shadow: 0px 0px 31px 13px #ff2929 inset; */
+  /* box-shadow: 0 0 30px 13px #d8cb15 inset; */
+  border: 3px solid red;
+  /* box-shadow: 0px 0px 31px 13px #09ff00 inset; */
+}
+
+.reflesh {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.bx-refresh {
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
