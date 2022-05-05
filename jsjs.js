@@ -39,8 +39,8 @@ function cc(sec) {
 
 // e.target.parentElement.previousElementSibling.classList.add("zeroo")
 
-// console.log(timer.innerHTML);
-// if (timer.innerHTML == "0:00") {
+// console.log(t.innerHTML);
+// if (t.innerHTML == "0:00") {
 //   console.log("null");
 // }
 
